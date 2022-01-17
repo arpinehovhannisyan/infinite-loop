@@ -1,0 +1,520 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    
+}
+
+.container {
+    width: 100%;
+    
+}
+
+.ej1 {
+    width: 100%;
+    height: 788px;
+    background-image: url(img/infinite-loop-01.jpg);
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.header {
+    height: 40px;
+    width: 100%;
+    padding: 15px 0 0 0;
+    display: flex;
+    position: fixed;
+   
+}
+.header.hscroll{
+    height: 65px;
+    background-color: #fff;
+}
+
+.logo {
+    width: 40%;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    font-size: 25px;
+}
+
+.hscroll .logo{
+    color: #336699;
+
+}
+
+
+
+.ul {
+    width: 65%;
+}
+
+.ul>ul {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    color: #fff;
+    list-style: none;
+    font-weight: 400;
+}
+
+.ul>ul>li {
+    padding: 10px 35px;
+    white-space: nowrap;
+
+}
+.hscroll .ul>ul> li{
+    color: #336699;
+}
+
+.hscroll .ul>ul> li:hover{
+    color: #fff;
+}
+
+.logo:hover {
+    color: #336699;
+}
+
+.ul>ul> li:hover {
+    background-color: #336699;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    color: #fff;
+    transform: translate(-50%, -50%);
+   
+}
+
+.inf {
+    margin: 0 0 25px 0;
+    font-size: 55px;
+}
+.main>p:nth-child(2){
+    margin: 0 0 20px 0; 
+}
+
+ .slaq>i{
+    color: #fff;
+
+   font-size: 40px;
+   z-index: 333; 
+   margin:0;
+   
+ }
+  
+.slaq{
+height: 80px;
+width: 120px;
+background-color: #336699;
+position: absolute;
+left: 45%;
+top: 80%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+
+}
+.slaq:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.main1{
+    width: 90%;
+    margin: 0 auto;
+    padding: 80px;
+    color: #3F7FAF;
+}
+.main1>h1{
+    font-size: 40px;
+   font-weight:400;
+    text-transform: capitalize;
+    padding-bottom: 24px;
+    
+}
+.main1>p{
+    font-size:19px;
+    line-height:40px;
+    color: #877070;
+}
+.main1>p>span{
+    color: #336699;
+}
+.data1{
+    /* width: 90%; */
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+   
+
+.market{
+    display: flex;
+    width:47%;
+    line-height: 40px;
+    font-size: 19px;
+    color: #877070;
+  
+    
+}
+.fast{
+    display: flex;
+    width:47%;
+    line-height: 40px;
+    font-size: 19px;
+    color: #877070;
+}
+h1{
+    font-size: 30px;
+    font-weight:400;
+     text-transform: capitalize;
+     padding-bottom: 24px;
+     color: #336699;
+
+}
+ i{
+    font-size:50px;
+  
+   color: #336699;
+   font-weight:400;
+   margin: 0 25px 0 0;
+}
+.learn{
+    width: 166px;
+   padding: 8px;
+    background-color: #336699 ;
+    color: #fff;
+    text-align: center;
+    margin-top: 24px;
+    transition: .3s;
+    cursor: pointer;
+}
+.learn:hover{
+    background-color: rgb(136, 163, 238);   
+}
+.strong{
+    font-weight:bold;
+}
+span{
+    color: #336699;
+
+}
+.detalis{
+    width: 100px;
+    padding: 8px;
+    background-color: #336699 ;
+    color: #fff;
+    text-align: center;
+    margin-top: 24px;
+    transition: .3s;
+    cursor: pointer;
+}
+.detalis:hover{
+    background-color: rgb(136, 163, 238);
+
+}
+.ej2{
+    background-image: url(img/infinite-loop-02.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center; 
+    color: #fff;
+    line-height: 40px;
+
+}
+.ej2>h1{
+    font-size: 40px;
+    color: #fff;
+    padding-top: 80px;
+
+}
+.nkar{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+   
+}
+.figur1{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: url(img/testimonial-img-01.jpg);
+    background-size: cover;   
+}
+.figur2{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: url(img/testimonial-img-02.jpg);
+    background-size: cover;   
+}
+.figur3{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background-image: url(img/testimonial-img-03.jpg);
+    background-size: cover;  
+}
+.text{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    font-weight: 500;
+    
+}
+.klor{
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    margin: 0 auto;
+}
+.klor1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: darkgray;
+    cursor: pointer;
+}
+.klor1:hover{
+    background-color: #fff;
+}
+.klor2{
+     width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: darkgray;
+    cursor: pointer;
+
+}
+.klor2:hover{
+    background-color: #fff;
+}
+.klor3{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: darkgray;
+    cursor: pointer;
+}
+.klor3:hover{
+    background-color:#fff;
+}
+.ej3{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 15px;
+    line-height: 30px;
+    color: #877070;
+}
+.ej3>h1{
+    font-size:40px;
+}
+.anim{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+.anim-item{
+    width: 210px;
+    height: 360px;
+    background-size: cover;
+    background-origin: border-box;
+    border-bottom: 0;
+    cursor: pointer;
+    transition: .5s;
+}
+.anim-item:hover{
+    border-bottom: 10px solid #336699 ;
+    transition: .4s;
+    background-color: rgb(145, 125, 163);
+    background-blend-mode: multiply;
+}
+
+.anim1{
+    background-image: url(img/gallery-tn-01.jpg);
+    
+}
+.anim2{
+    background-image: url(img/gallery-img-02.jpg); 
+}
+.anim3{
+    background-image: url(img/gallery-img-03.jpg);
+}
+
+.anim4{
+    background-image: url(img/gallery-img-04.jpg);
+}
+.anim5{
+  
+    background-image: url(img/gallery-img-05.jpg); 
+}
+.text1{
+    color: #fff;
+    opacity: 0;
+    margin-top:110px; 
+    font-size: 25px;
+    transform: translatey(80px);
+    transition: .5s;
+}
+
+
+.anim-item:hover .text1{
+    opacity: 1;
+    transition: .5s;
+   transform: translatey(120px);
+}
+
+
+
+.ej4{
+    background-image: url(img/infinite-loop-03.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+
+
+
+
+}
+.ej4>h1{
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+   
+}
+.name{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+ 
+}
+.your,.chat{
+    width: 45%;
+}
+
+
+.a{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #fff;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+
+}
+.b{
+    width: 100%;
+    height: 50px;
+    border: 1px solid #fff;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.c{
+    width: 100%;
+    height: 300px;
+    border: 1px solid #fff;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    max-width: 100%;
+   padding-top: 10px;
+   margin-bottom: 20px;
+}
+::placeholder{
+    font-size: 19px;
+    color: #fff;
+    padding-left: 20px;
+}
+.d>i{
+    color: #fff;
+    font-size: 30px;
+    
+}
+.d{
+  margin: 0 0 50px 0;
+  text-align: left;
+  cursor: pointer;
+}
+.d:hover i{
+    color: #336699 ;
+    transition: .3s;
+}
+.d:hover .m{
+    color:#336699 ;
+    transition: .3s;
+}
+
+.m{
+    color: #fff;
+    cursor: pointer;
+}
+.submit{
+   width: 250px;
+   /* height: 50px; */
+    background-color:#336699 ;
+    color: #fff;
+    /* text-align: center; */
+    border-radius: 10px;
+    padding: 10px 80px 10px 80px; 
+    cursor: pointer;  
+}
+.submit:hover{
+    background-color:rgb(66, 141, 212); ;
+}
+.v{
+    text-align: center;
+    color: #fff;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-size: 15px;
+}
+@media (max-width: 375px) {
+    
+    .header-top .contacts div span{
+        display: none;
+    }
+  
+  
+
+}
+  
+
+
+
+  
+
+
+
+
+
+    
+
